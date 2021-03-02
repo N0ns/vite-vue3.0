@@ -1,0 +1,9 @@
+.tox{
+  z-index: 8000 !important;
+}
+.el-loading-mask{
+  z-index: 8000 !important; // loading蒙层，修改可能会影响富文本编辑器效果
+}
+.tox-fullscreen{
+  z-index: 7999 !important;
+}

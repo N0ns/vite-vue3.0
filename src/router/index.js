@@ -19,6 +19,12 @@ export const constantRoutes = [
           component: () => import('../pages/home/index.vue')
         }
       ]
+    },
+    {
+      path:'/login',
+      name:'登录页',
+      meta:{auth:false},
+      component:()=>import('@/pages/login/index.vue')
     }
 ]
 

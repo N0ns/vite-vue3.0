@@ -1,0 +1,32 @@
+@charset "UTF-8";
+//空数据时
+@mixin emptyBlock($data:'\6682\65e0\6570\636e') {
+  height: 140px !important;
+  &::before{
+    content: '';
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 80px;
+    height: 56px;
+    background: url('../assets/images/icons/empty.png') no-repeat;
+    background-size: 100% 100%;
+  }
+  &::after{
+    content: $data;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 42px;
+    font-size: 14px;
+    color: #acadb3;
+  }
+}
+
+//圆角
+@mixin borderRadius($data:5) {
+  border-radius: $data+px;
+}

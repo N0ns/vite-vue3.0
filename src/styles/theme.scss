@@ -1,0 +1,14 @@
+// $--color-primary: #00A05B;
+/* 改变主题色变量 */
+// $--color-primary: #409EFF;
+$--color-success: #13ce66;
+$--color-warning: #FFBA00;
+$--color-danger: #ff4949;
+$--color-primary: #409EFF;
+$--table-row-hover-background-color :rgba(230, 246, 239, 1);
+$--select-option-selected-hover: rgba(230, 246, 239, 1);
+$--select-option-hover-background: rgba(230, 246, 239, 1);
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "element-plus/packages/theme-chalk/src/index.scss";
