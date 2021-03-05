@@ -14,7 +14,7 @@ export default {
       //'@': process.cwd()+'/src'
       //'@':path.resolve('src')
       //'@':path.resolve(__dirname, 'src')
-      '@':resolve(__dirname, '/src')
+      '@':resolve(__dirname, './src')
     },
   },
   

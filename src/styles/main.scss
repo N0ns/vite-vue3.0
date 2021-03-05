@@ -154,7 +154,7 @@ footer{
 $marginData: 5,10,15,20,25,30;
 @each $data in $marginData {
   .margin_#{$data}{ margin: $data + px; }
-  .margin_t_#{$data}{ margin-top: $data +px; }
+  .margin_t_#{$data}{ margin-top: $data +px !important; }
   .margin_b_#{$data}{ margin-bottom: $data +px; }
   .margin_tm_#{$data}{margin:$data+px 0}
   .margin_l_#{$data}{margin-left: $data+px !important;}

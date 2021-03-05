@@ -1,11 +1,11 @@
 import axios from 'axios'
-import { Message } from 'element-ui'
+import { Message } from 'element-plus'
 import localStorage from './localStorage'
 import store from '@/store'
 import router from '@/router'
 import FUNC from '@/utils/func.js'
 
-const url = process.env.VUE_APP_BASE_API
+const url = import.meta.env.VITE_BASE_API
 
 const CancelToken = axios.CancelToken
 let cancel; const pendingList = []
